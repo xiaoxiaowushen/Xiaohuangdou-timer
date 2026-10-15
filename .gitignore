@@ -1,0 +1,22 @@
+# 构建产物
+dist/
+build/计时器/
+build/计时器安装程序/
+build/*/
+
+# 依赖（本机 PyInstaller 是用 tools/fetch_pyinstaller.py 抓到 .pylibs 的）
+.pylibs/
+.venv/
+venv/
+
+# 临时与调试文件
+.tmp/
+_probe/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# PyInstaller 在根目录自动生成的 spec（真正的配置在 build/ 下）
+/*.spec

@@ -1,0 +1,9 @@
+﻿# 统一换行，二进制文件不要当成文本处理
+* text=auto
+*.py text
+*.ps1 text
+*.md text
+*.ico binary
+*.png binary
+*.jpg binary
+*.exe binary
